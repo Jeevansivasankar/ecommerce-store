@@ -117,6 +117,14 @@ function App() {
             </AdminProtectedRoute>
           }
         />
+        <Route
+  path="/admin/inventory"
+  element={
+    <AdminProtectedRoute>
+      <Inventory />
+    </AdminProtectedRoute>
+  }
+/>
 
       </Routes>
     </BrowserRouter>
